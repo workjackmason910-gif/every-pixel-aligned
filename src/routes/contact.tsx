@@ -14,7 +14,7 @@ export const Route = createFileRoute("/contact")({
 
 function Contact() {
   return (
-    <>
+    <div className="pt-20">
       <section id="contact" className="py-24 md:py-32">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16" data-reveal="">
@@ -56,6 +56,6 @@ function Contact() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

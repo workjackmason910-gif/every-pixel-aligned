@@ -14,7 +14,7 @@ export const Route = createFileRoute("/metaphor-stories")({
 
 function MetaphorStories() {
   return (
-    <>
+    <div className="pt-20">
       <section id="metaphor" className="py-24 md:py-32">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16" data-reveal="">
@@ -306,6 +306,6 @@ function MetaphorStories() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

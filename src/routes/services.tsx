@@ -14,7 +14,7 @@ export const Route = createFileRoute("/services")({
 
 function Services() {
   return (
-    <>
+    <div className="pt-20">
       <section id="services" className="py-24 md:py-32">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16" data-reveal="">
@@ -106,6 +106,6 @@ function Services() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

@@ -15,7 +15,7 @@ export const Route = createFileRoute("/sample-stories")({
 
 function SampleStories() {
   return (
-    <>
+    <div className="pt-20">
       <section id="sample-stories" className="py-24 md:py-32 bg-secondary/50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16" data-reveal="">
@@ -567,6 +567,6 @@ function SampleStories() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
