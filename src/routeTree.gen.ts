@@ -10,33 +10,102 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as MetaphorStoriesRouteImport } from './routes/metaphor-stories'
+import { Route as PublicationsRouteImport } from './routes/publications'
+import { Route as SampleStoriesRouteImport } from './routes/sample-stories'
+import { Route as ServicesRouteImport } from './routes/services'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MetaphorStoriesRoute = MetaphorStoriesRouteImport.update({
+  id: '/metaphor-stories',
+  path: '/metaphor-stories',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PublicationsRoute = PublicationsRouteImport.update({
+  id: '/publications',
+  path: '/publications',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SampleStoriesRoute = SampleStoriesRouteImport.update({
+  id: '/sample-stories',
+  path: '/sample-stories',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServicesRoute = ServicesRouteImport.update({
+  id: '/services',
+  path: '/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/metaphor-stories': typeof MetaphorStoriesRoute
+  '/publications': typeof PublicationsRoute
+  '/sample-stories': typeof SampleStoriesRoute
+  '/services': typeof ServicesRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/metaphor-stories': typeof MetaphorStoriesRoute
+  '/publications': typeof PublicationsRoute
+  '/sample-stories': typeof SampleStoriesRoute
+  '/services': typeof ServicesRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/metaphor-stories': typeof MetaphorStoriesRoute
+  '/publications': typeof PublicationsRoute
+  '/sample-stories': typeof SampleStoriesRoute
+  '/services': typeof ServicesRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/contact'
+    | '/metaphor-stories'
+    | '/publications'
+    | '/sample-stories'
+    | '/services'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/contact'
+    | '/metaphor-stories'
+    | '/publications'
+    | '/sample-stories'
+    | '/services'
+  id:
+    | '__root__'
+    | '/'
+    | '/contact'
+    | '/metaphor-stories'
+    | '/publications'
+    | '/sample-stories'
+    | '/services'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ContactRoute: typeof ContactRoute
+  MetaphorStoriesRoute: typeof MetaphorStoriesRoute
+  PublicationsRoute: typeof PublicationsRoute
+  SampleStoriesRoute: typeof SampleStoriesRoute
+  ServicesRoute: typeof ServicesRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +117,51 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/metaphor-stories': {
+      id: '/metaphor-stories'
+      path: '/metaphor-stories'
+      fullPath: '/metaphor-stories'
+      preLoaderRoute: typeof MetaphorStoriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/publications': {
+      id: '/publications'
+      path: '/publications'
+      fullPath: '/publications'
+      preLoaderRoute: typeof PublicationsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sample-stories': {
+      id: '/sample-stories'
+      path: '/sample-stories'
+      fullPath: '/sample-stories'
+      preLoaderRoute: typeof SampleStoriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/services': {
+      id: '/services'
+      path: '/services'
+      fullPath: '/services'
+      preLoaderRoute: typeof ServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ContactRoute: ContactRoute,
+  MetaphorStoriesRoute: MetaphorStoriesRoute,
+  PublicationsRoute: PublicationsRoute,
+  SampleStoriesRoute: SampleStoriesRoute,
+  ServicesRoute: ServicesRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
