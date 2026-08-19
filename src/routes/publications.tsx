@@ -26,11 +26,11 @@ function Publications() {
               Publications
             </h2>
             <p className="text-muted-foreground mt-2 text-sm">
-              Pat Pernicano, PsyD — see
+              Pat Pernicano, PsyD — see{" "}
               <a href="https://www.amazon.com/stores/Pat-Pernicano/author/B00318RO20?ref=ap_rdr&shoppingPortalEnabled=true" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
                 Amazon Author Central
               </a>
-              or Routledge/Taylor & Francis
+              {" "}or Routledge/Taylor & Francis
             </p>
           </div>
           <div className="max-w-4xl mx-auto space-y-10 mb-16">
@@ -47,10 +47,10 @@ function Publications() {
                   Family Communication about emotional pain
                 </p>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  This book opens the door to parent-child communication when a parent’s emotional pain, due to life events, PTSD, moral injury, depression or anxiety, begins to impact a child. Children are sensitive to and internalize their parents’ pain and so often attribute it to themselves. In this story, the Daddy has returned from war, and his wings no longer work right. He has been changed by his experiences. The story is applicable to other types of situations that result in emotional pain in adults and impact the children who love them: loss, trauma, death, divorce, first responding, medical failure, suicide, etc. The whimsical story encourages families to heal together, through love for one another.
+                  This book opens the door to parent-child communication when a parent’s emotional pain, due to life events, PTSD, moral injury, depression or anxiety, begins to impact a child. Children are sensitive to and internalize their parents’ pain and so often attribute it to themselves. In this story, the Daddy has returned from war, and his wings no longer work right. He has been changed by his experiences. The story is applicable to other types of situations that result in emotional pain in adults and impact the children who love them: loss, trauma, death, divorce, first responding, medical failure, suicide, etc. The whimsical story encourages families to heal together, through love for one another.{" "}
                 </p>
                 <a href="https://www.amazon.com/Little-Butterfly-Her-Daddy-Childrens-ebook/dp/B0H1L8QD2H/ref=sr_1_1?crid=AFRCDDXRZSAH&dib=eyJ2IjoiMSJ9.xw0IUpQk6nN4DZkNEFlFGWkV5o60PHY_x61MFHJzydw2-JWq1-4bnN02E5E_bYIq.f36V8mATsc7XYr8Euzl9SpUjjoBX5Ku5fAFORAB5ztk&dib_tag=se&keywords=little+butterflies+and+her+daddy&qid=1779482235&s=digital-text&sprefix=little+butterflya+nd+her+daddy%2Cdigital-text%2C332&sr=1-1" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-primary font-medium mt-4 hover:underline">
-                  View on Amazon
+                  View on Amazon{" "}
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link w-3.5 h-3.5">
                     <path d="M15 3h6v6" />
                     <path d="M10 14 21 3" />
@@ -75,7 +75,7 @@ function Publications() {
                   This book is primarily a set of case studies across the lifespan in which stories, art and play contributed to the assessment and treatment of trauma-related problems. The author adheres to an integrative model of trauma-informed treatment and notes the influence of Milton Erickson and Jung in understanding symbols, metaphor and change. Each case provides history and conceptualization, and artwork in the book serves as evidence of both symptoms and qualitative change. Dr. Pat offers several new therapeutic stories as well as guides for effective use of stories and interventions.
                 </p>
                 <a href="https://www.amazon.com/Using-Stories-Play-Trauma-Informed-Treatment/dp/1138484725/ref=books_amazonstores_desktop_mfs_aufs_ap_sc_dsk_4?_encoding=UTF8&pd_rd_w=Dem5T&content-id=amzn1.sym.9c9a049f-252a-49d9-a8c2-e300a1663200&pf_rd_p=9c9a049f-252a-49d9-a8c2-e300a1663200&pf_rd_r=141-7570943-8223030&pd_rd_wg=Q5rzW&pd_rd_r=4735fa3e-cfb0-41ce-b79d-82a1961af105" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-primary font-medium mt-4 hover:underline">
-                  View on Amazon
+                  View on Amazon{" "}
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link w-3.5 h-3.5">
                     <path d="M15 3h6v6" />
                     <path d="M10 14 21 3" />
@@ -97,10 +97,10 @@ function Publications() {
                   Interventions for Therapists, Children and Their Caregivers
                 </p>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Routledge adopted this updated version of the earlier book (2014) as one of its classic editions. With a new Forward, the book points out that story and metaphor, with paired interventions, are effective adjuncts to therapy. Roughly following the model of TF-CBC therapy, and with guides to trauma, the stories and interventions will be helpful to therapists, children, and caregivers.
+                  Routledge adopted this updated version of the earlier book (2014) as one of its classic editions. With a new Forward, the book points out that story and metaphor, with paired interventions, are effective adjuncts to therapy. Roughly following the model of TF-CBC therapy, and with guides to trauma, the stories and interventions will be helpful to therapists, children, and caregivers.{" "}
                 </p>
                 <a href="https://www.amazon.com/Using-Trauma-Focused-Therapy-Stories-Interventions/dp/1032018968/ref=books_amazonstores_desktop_mfs_aufs_ap_sc_dsk_2?_encoding=UTF8&pd_rd_w=AunjP&content-id=amzn1.sym.9c9a049f-252a-49d9-a8c2-e300a1663200&pf_rd_p=9c9a049f-252a-49d9-a8c2-e300a1663200&pf_rd_r=141-7570943-8223030&pd_rd_wg=afwhC&pd_rd_r=10d9abec-80a5-4ef7-8b36-40220fe0b658" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-primary font-medium mt-4 hover:underline">
-                  View on Amazon
+                  View on Amazon{" "}
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link w-3.5 h-3.5">
                     <path d="M15 3h6v6" />
                     <path d="M10 14 21 3" />
@@ -125,7 +125,7 @@ function Publications() {
                   This is Dr. Pernicano's most comprehensive work to date. The workbook includes trauma treatment guides to be used with children and their caregivers as well as a therapist guide to trauma intervention. It includes a collection of Pernicano therapy stories organized by the TF-CBT model, and a number of story-related interventions. There are case descriptions to illustrate the use of stories, art and play in psychotherapy.
                 </p>
                 <a href="https://www.amazon.com/Using-Trauma-Focused-Therapy-Stories-Interventions/dp/0415726921/ref=zg-te-pba_d_sccl_1_2/141-7570943-8223030?pd_rd_w=NGPUs&content-id=amzn1.sym.081392b0-c07f-4fc2-8965-84d15d431f0d&pf_rd_p=081392b0-c07f-4fc2-8965-84d15d431f0d&pf_rd_r=BSZXZRCZRPPWJXJX4P8N&pd_rd_wg=FZ9zX&pd_rd_r=531e23f7-6885-4882-969b-4e5f1bc4d241&pd_rd_i=0415726921&psc=1" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-primary font-medium mt-4 hover:underline">
-                  View on Amazon
+                  View on Amazon{" "}
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link w-3.5 h-3.5">
                     <path d="M15 3h6v6" />
                     <path d="M10 14 21 3" />
@@ -150,7 +150,7 @@ function Publications() {
                   This systemically oriented book addresses treatment with families that have experienced separation, trauma, attachment difficulties, and other disruptive life events. It arose out of an innovative and integrative family residential treatment program developed by Dr. Pernicano in Georgetown, IN. There are a number of creative stories with family-focused interventions as well as psychoeducational material about trauma and attachment.
                 </p>
                 <a href="https://www.amazon.com/Family-Focused-Trauma-Intervention-Metaphor-Victims-ebook/dp/B003TFE1BW?ref_=ast_author_dp_rw&th=1&psc=1&dib=eyJ2IjoiMSJ9.SCJi52xd9wGvmEWB_r6yDUiyp5vb8olGObmWOqHA5712DK3WYuRpgQEEAsJmnJuw47HLU4DbbmBXxeodqvVMymv2-uYNTBGjc36L4XdHNFKAv44sTxUFCCmLFKQOkqQB.a54aGErdupNWONPoqejeP00-bbI1t5s84KD7hOYV8lk&dib_tag=AUTHOR" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-primary font-medium mt-4 hover:underline">
-                  View on Amazon
+                  View on Amazon{" "}
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link w-3.5 h-3.5">
                     <path d="M15 3h6v6" />
                     <path d="M10 14 21 3" />
@@ -169,13 +169,13 @@ function Publications() {
                   Healing Veteran Moral Injury
                 </h3>
                 <p className="text-sm text-primary font-medium italic mb-3">
-                  Stories For Moral Injury Healing
+                  Stories For Moral Injury Healing{" "}
                 </p>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  This book includes Veteran stories of moral injury, and describes pathways to healing for betrayal, participation, and witnessing moral injury. The book is anchored in treatment stories to conceptualize and guide change, and it is a landmark offering for Veterans and those who work with or care for them. Acceptance and Forgiveness Therapy (AFT) is a treatment model based on group process for compassion, accepting what you can’t change, resolving guilt & grief, and moving toward resilience through post-trauma growth.
+                  This book includes Veteran stories of moral injury, and describes pathways to healing for betrayal, participation, and witnessing moral injury. The book is anchored in treatment stories to conceptualize and guide change, and it is a landmark offering for Veterans and those who work with or care for them. Acceptance and Forgiveness Therapy (AFT) is a treatment model based on group process for compassion, accepting what you can’t change, resolving guilt & grief, and moving toward resilience through post-trauma growth.{" "}
                 </p>
                 <a href="https://www.amazon.com/Healing-Veteran-Moral-Injury-Connection/dp/1032789697/ref=books_amazonstores_desktop_mfs_aufs_ap_sc_dsk_1?_encoding=UTF8&pd_rd_w=2btLU&content-id=amzn1.sym.9c9a049f-252a-49d9-a8c2-e300a1663200&pf_rd_p=9c9a049f-252a-49d9-a8c2-e300a1663200&pf_rd_r=141-7570943-8223030&pd_rd_wg=t99Ox&pd_rd_r=1034e43a-e07d-409c-b25d-2de1df757d6c" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-primary font-medium mt-4 hover:underline">
-                  View on Amazon
+                  View on Amazon{" "}
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link w-3.5 h-3.5">
                     <path d="M15 3h6v6" />
                     <path d="M10 14 21 3" />
@@ -198,7 +198,7 @@ function Publications() {
                   These stories were originally used with women in a family reunification program to help them identify pitfalls of interpersonal violence and how their relationship decisions impacted their children. The material helps participants share thoughts and feelings with less defensiveness as they discuss and apply the themes to their lives.
                 </p>
                 <a href="https://www.amazon.com/Outsmarting-Riptide-Domestic-Violence-Mindfulness-ebook/dp/B0076M58K2?ref_=ast_author_dp_rw&th=1&psc=1&dib=eyJ2IjoiMSJ9.SCJi52xd9wGvmEWB_r6yDUiyp5vb8olGObmWOqHA5712DK3WYuRpgQEEAsJmnJuw47HLU4DbbmBXxeodqvVMymv2-uYNTBGjc36L4XdHNFKAv44sTxUFCCmLFKQOkqQB.a54aGErdupNWONPoqejeP00-bbI1t5s84KD7hOYV8lk&dib_tag=AUTHOR" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-primary font-medium mt-4 hover:underline">
-                  View on Amazon
+                  View on Amazon{" "}
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link w-3.5 h-3.5">
                     <path d="M15 3h6v6" />
                     <path d="M10 14 21 3" />
@@ -406,7 +406,7 @@ function Publications() {
                   Metaphors and Stories in Play Therapy
                 </h4>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  This chapter focuses on the ways in which story and metaphor are used in play therapies, through “making movies” in the sand tray, creative enactment with dolls or puppets, telling stories through squiggles drawings, and relating symbolically during other play modalities. There is a long history to story and metaphor, a timeless process of planting seeds, expressing emotional pain, identifying pathways forward, and creating stories of resilience. In plan therapies, children use story and metaphor to symbolically express deep, unresolved pain and discover new ways of viewing self, others, and the world.
+                  This chapter focuses on the ways in which story and metaphor are used in play therapies, through “making movies” in the sand tray, creative enactment with dolls or puppets, telling stories through squiggles drawings, and relating symbolically during other play modalities. There is a long history to story and metaphor, a timeless process of planting seeds, expressing emotional pain, identifying pathways forward, and creating stories of resilience. In plan therapies, children use story and metaphor to symbolically express deep, unresolved pain and discover new ways of viewing self, others, and the world.{" "}
                 </p>
               </div>
             </div>
@@ -423,7 +423,7 @@ function Publications() {
                   This book is an excellent resource for anyone working with children (teacher, therapist, etc.) that experience problems such as fear of the dark, parental divorce, eating disorder, anxiety, depression, obsessive compulsive symptoms, and anger. The stories in the book help children talk about their problems through the story characters and identify solutions for change.
                 </p>
                 <a href="https://www.amazon.com/Metaphorical-Stories-Child-Therapy-Miracles-ebook/dp/B003TFE1JY?ref_=ast_author_dp_rw&th=1&psc=1&dib=eyJ2IjoiMSJ9.SCJi52xd9wGvmEWB_r6yDUiyp5vb8olGObmWOqHA5712DK3WYuRpgQEEAsJmnJuw47HLU4DbbmBXxeodqvVMymv2-uYNTBGjc36L4XdHNFKAv44sTxUFCCmLFKQOkqQB.a54aGErdupNWONPoqejeP00-bbI1t5s84KD7hOYV8lk&dib_tag=AUTHOR" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-primary font-medium mt-4 hover:underline">
-                  View on Amazon
+                  View on Amazon{" "}
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link w-3.5 h-3.5">
                     <path d="M15 3h6v6" />
                     <path d="M10 14 21 3" />

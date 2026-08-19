@@ -45,11 +45,11 @@ function SampleStories() {
                 </div>
               </div>
               <p className="text-xs text-muted-foreground italic mb-8 border-b border-border pb-6">
-                Originally published in
+                Originally published in{" "}
                 <em>
                   Using Trauma Focused Therapy Stories: Interventions for Therapists, Children and their Caregivers
                 </em>
-                (2014). NY: Routledge/Taylor & Francis. This version is a two-part modification adapted for group treatment.
+                {" "}(2014). NY: Routledge/Taylor & Francis. This version is a two-part modification adapted for group treatment.
               </p>
               <h4 className="font-heading text-lg font-semibold text-primary mb-4">
                 Part I: The Trauma

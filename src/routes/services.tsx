@@ -27,19 +27,19 @@ function Services() {
           </div>
           <div className="max-w-3xl mx-auto mb-16 bg-card rounded-lg p-8 shadow-[var(--shadow-soft)] text-sm text-muted-foreground leading-relaxed" data-reveal="">
             <p>
-              Dr. Pat graduated from Baylor University in 1985 with a Psy.D. From 2015-2025, she worked with at the VA and served Veterans with PTSD, Depression, and Moral Injury. She used stories and drawing with veterans to help them describe past trauma and impact on their lives.While at the VA, she co-authored and offered a group educational and treatment program for moral injury, Acceptance and Forgiveness Therapy. She served as part-time Associate Professor at Spalding University for 19 years, and also contracts with the United Methodist Church as a Ministerial Assessment Specialist. Dr. Pat’s latest publication was released March, 2025 by Routledge/Taylor & Francis:
+              Dr. Pat graduated from Baylor University in 1985 with a Psy.D. From 2015-2025, she worked with at the VA and served Veterans with PTSD, Depression, and Moral Injury. She used stories and drawing with veterans to help them describe past trauma and impact on their lives.While at the VA, she co-authored and offered a group educational and treatment program for moral injury, Acceptance and Forgiveness Therapy. She served as part-time Associate Professor at Spalding University for 19 years, and also contracts with the United Methodist Church as a Ministerial Assessment Specialist. Dr. Pat’s latest publication was released March, 2025 by Routledge/Taylor & Francis:{" "}
               <strong>
                 Healing Veteran Moral Injury: Using Story and Metaphor to Foster Hope and Connection
               </strong>
-              . In 2021, Taylor & Francis Group selected
+              . In 2021, Taylor & Francis Group selected{" "}
               <strong>
                 Using Trauma-Focused Therapy Stories: Interventions for Therapists, Children and Their Caregivers
               </strong>
-              , first published in 2014, for inclusion in their Classics collection.
+              , first published in 2014, for inclusion in their Classics collection.{" "}
               <strong>
                 Using Stories, Art and Play in Trauma-Informed Treatment: Case Examples and Applications Across the Lifespan
               </strong>
-              (2018) includes case examples (client stories, art and play) as well as case conceptualization to guide treatment.  In 2018, a number of her authored materials were accepted for a joint Sustainability Project between Taylor & Francis publishers and the United Nations. She has provided training on Trauma Informed Treatment, \Moral Injury, Using Metaphor and Story for Trauma Narrative/Impact, Impact of Trauma on Child Development, Integrative Treatment for Veteran Moral Injury (and the Benefit of Metaphor and Story), Mindful Practices for Children, Rorschach Performance Assessment System (RPAS), Cultural Diversity, and Using Stories, Art and Play in Family Focused Trauma Intervention. She has presented on the importance of addressing moral injury at end of life (hospice) and has authored a new book for children of Veterans titled
+              {" "}(2018) includes case examples (client stories, art and play) as well as case conceptualization to guide treatment.  In 2018, a number of her authored materials were accepted for a joint Sustainability Project between Taylor & Francis publishers and the United Nations. She has provided training on Trauma Informed Treatment, \Moral Injury, Using Metaphor and Story for Trauma Narrative/Impact, Impact of Trauma on Child Development, Integrative Treatment for Veteran Moral Injury (and the Benefit of Metaphor and Story), Mindful Practices for Children, Rorschach Performance Assessment System (RPAS), Cultural Diversity, and Using Stories, Art and Play in Family Focused Trauma Intervention. She has presented on the importance of addressing moral injury at end of life (hospice) and has authored a new book for children of Veterans titled{" "}
               <strong>
                 Little Butterfly and her Daddy: Healing the Pain of War
               </strong>
