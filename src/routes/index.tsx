@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { RevealObserver } from "@/components/site/RevealObserver";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -15,6 +16,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <>
+      <RevealObserver />
       <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <img src="/assets/hero-bg-BVjqeT0E.jpg" alt="" width="1920" height="1080" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-primary/60"></div>
