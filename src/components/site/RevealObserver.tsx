@@ -11,7 +11,7 @@ export function RevealObserver() {
   useEffect(() => {
     const nodes = Array.from(document.querySelectorAll<HTMLElement>("[data-reveal]"));
     if (!("IntersectionObserver" in window)) {
-      nodes.forEach((n) => n.classList.add("is-visible"));
+      nodes.forEach((n) => n.setAttribute("data-visible", ""));
       return;
     }
 
@@ -19,7 +19,7 @@ export function RevealObserver() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("is-visible");
+            entry.target.setAttribute("data-visible", "");
             observer.unobserve(entry.target);
           }
         });
@@ -28,7 +28,7 @@ export function RevealObserver() {
     );
 
     nodes.forEach((n) => {
-      n.classList.remove("is-visible");
+      n.removeAttribute("data-visible");
       observer.observe(n);
     });
 
