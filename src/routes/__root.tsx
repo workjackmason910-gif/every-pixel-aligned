@@ -13,7 +13,6 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Navigation } from "../components/site/Navigation";
 import { Footer } from "../components/site/Footer";
-import { RevealObserver } from "../components/site/RevealObserver";
 
 function NotFoundComponent() {
   return (
@@ -130,7 +129,6 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       <div className="min-h-screen">
         <Navigation />
-        <RevealObserver />
         {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
         <Outlet />
         <Footer />

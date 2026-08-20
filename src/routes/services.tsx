@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { RevealObserver } from "@/components/site/RevealObserver";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
@@ -15,6 +16,7 @@ export const Route = createFileRoute("/services")({
 function Services() {
   return (
     <div className="pt-20">
+      <RevealObserver />
       <section id="services" className="py-24 md:py-32">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16" data-reveal="">

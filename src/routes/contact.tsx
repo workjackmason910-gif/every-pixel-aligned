@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { RevealObserver } from "@/components/site/RevealObserver";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -13,8 +14,24 @@ export const Route = createFileRoute("/contact")({
 });
 
 function Contact() {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    const body = [
+      `Name: ${data.get("name") ?? ""}`,
+      `Email: ${data.get("email") ?? ""}`,
+      `Phone: ${data.get("phone") ?? ""}`,
+      "",
+      String(data.get("message") ?? ""),
+    ].join("\n");
+    window.location.href = `mailto:ppshrink@gmail.com?subject=${encodeURIComponent(
+      `Website message from ${data.get("name") ?? "visitor"}`,
+    )}&body=${encodeURIComponent(body)}`;
+  };
+
   return (
     <div className="pt-20">
+      <RevealObserver />
       <section id="contact" className="py-24 md:py-32">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16" data-reveal="">
@@ -44,7 +61,7 @@ function Contact() {
                 </a>
               </div>
             </div>
-            <form className="space-y-4" noValidate data-reveal="">
+            <form className="space-y-4" noValidate data-reveal="" onSubmit={handleSubmit}>
               <input className="flex h-10 w-full rounded-md border border-input px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-card" name="name" placeholder="Name" required />
               <input type="email" className="flex h-10 w-full rounded-md border border-input px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-card" name="email" placeholder="Email" required />
               <input type="tel" className="flex h-10 w-full rounded-md border border-input px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-card" name="phone" placeholder="Phone" />
